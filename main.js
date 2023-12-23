@@ -9,12 +9,13 @@ const firebaseConfig = {
 };
 // 1 time to change  
 // Creat Firebase
+//change wwith new branch
 firebase.initializeApp(firebaseConfig);
 // Reference to the root node
 var meterDatabase = firebase.database();
 const usersRef = meterDatabase.ref("METTER");
 
-
+    
 //Create Object to get Data From Firebase
 class PowerMeasurement {
     constructor(ID, Name, Energy, Frequency, PF, Vol, Ampe, Wat) {
