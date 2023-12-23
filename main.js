@@ -15,7 +15,7 @@ firebase.initializeApp(firebaseConfig);
 var meterDatabase = firebase.database();
 const usersRef = meterDatabase.ref("METTER");
 
-
+    
 //Create Object to get Data From Firebase
 class PowerMeasurement {
     constructor(ID, Name, Energy, Frequency, PF, Vol, Ampe, Wat) {
