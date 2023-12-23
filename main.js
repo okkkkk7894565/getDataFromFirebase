@@ -7,7 +7,7 @@ const firebaseConfig = {
     messagingSenderId: "334154010668",
     appId: "1:334154010668:web:14171a1a506491d90a4189"
 };
-
+// 1 time to change
 // Creat Firebase
 firebase.initializeApp(firebaseConfig);
 // Reference to the root node
